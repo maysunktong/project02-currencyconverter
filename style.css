@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
+:root {
+  --
+}
 * {
   padding: 0;
   margin: 0;
@@ -32,6 +34,7 @@ main {
 
 h2 {
   text-align: center;
+  padding: 10px;
 }
 
 .container-left,
@@ -44,8 +47,34 @@ h2 {
 .container-right {
   width: 100%;
   padding: 20px;
+  line-height: 2rem;
+}
+
+p {
+  padding-top: 10px;
 }
 
 img {
   width: 100px;
+}
+
+button {
+  outline: none;
+  background-color: none;
+}
+
+.rate {
+  width: 50px;
+}
+
+input {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: ;
+  padding: 10px 20px;
+}
+
+input:focus {
+  border: 2px solid blue;
 }

@@ -9,11 +9,11 @@
   </head>
   <body>
     <main id="main">
-      <section class="container-left">
+      <div class="container-left">
         <img src="./img/money-bag.svg" alt="" />
-      </section>
-      <section class="container-right">
-        <h2>Currency Converter</h2>
+      </div>
+      <h2>Currency Converter</h2>
+      <div class="container-right">
         <div class="main-converter">
           <div id="">
             <h3>The currency I have:</h3>
@@ -206,7 +206,9 @@
             <input type="number" id="amount-one" placeholder="0" value="1" />
           </div>
           <div class="swap-rate-container">
-            <button class="btn" id="rate">Switch</button>
+            <a id="rate" href=""
+              ><img class="rate" src="./img/switch.svg" alt=""
+            /></a>
           </div>
           <div id="currency-two">
             <h3>The currency I want:</h3>
@@ -395,13 +397,13 @@
               <option value="ZMW" label="Zambian kwacha">ZMW</option>
               <option value="ZWB" label="Zimbabwean bonds">ZWB</option>
             </select>
+
             <p>Amount:</p>
             <input type="number" id="amount-two" placeholder="0" value="1" />
           </div>
         </div>
-      </section>
+      </div>
     </main>
-
     <!-- JS -->
     <script src="script.js"></script>
   </body>
