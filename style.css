@@ -1,5 +1,51 @@
-@import * {
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  background-color: #e63946;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Robot", sans-serif;
+}
+
+main {
+  max-width: 40%;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 30vh;
+}
+
+.main-converter {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container-left,
+.swap-rate-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.container-right {
+  width: 100%;
+  padding: 20px;
+}
+
+img {
+  width: 100px;
 }
