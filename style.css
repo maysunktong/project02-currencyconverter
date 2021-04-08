@@ -13,46 +13,44 @@ html {
   font-family: "Robot", sans-serif;
 }
 
-main {
+.container-main {
+  margin-top: 20vh;
+}
+
+.container {
   max-width: 40%;
   margin: auto;
   background-color: white;
   border-radius: 30px;
   padding: 30px;
-  margin-top: 30vh;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  min-height: 420px;
-}
-
-.main-converter {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  margin: auto;
+  line-height: 2.5rem;
 }
 
-h2 {
-  text-align: center;
+h3 {
+  text-align: left;
   padding: 10px;
 }
 
-.container-left,
+.container-pic,
 .swap-rate-container {
   width: 100%;
   height: auto;
   text-align: center;
+  line-height: 2rem;
 }
 
-.container-right {
-  width: 100%;
+.container-pic {
   padding: 20px;
-  line-height: 2rem;
 }
 
 p {
   padding-top: 10px;
-  color: grey;
+  color: black;
 }
 
 img {
@@ -61,11 +59,17 @@ img {
 
 button {
   outline: none;
-  background-color: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 5px 10px;
 }
 
 .rate {
-  width: 50px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: grey;
 }
 
 input,
